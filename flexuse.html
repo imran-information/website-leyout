@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Use</title>
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-between;
+            background-color: antiquewhite;
+            padding: 25px;
+            border-radius: 3px;
+        }
+
+        nav a {
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            margin-left: 25px;
+            font-weight: 700;
+        }
+
+        .login-containar {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .login-from {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .login-from input,
+        button {
+            font-size: 20px;
+            margin-top: 7px;
+            padding: 5px;
+            border: 1px solid lightblue;
+            border-radius: 5px;
+        }
+
+        .login-from button {
+            font-weight: 700;
+            background-color: aqua;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span>
+                <a href="">Home</a>
+                <a href="">Produts</a>
+                <a href="">Orders</a>
+                <a href="">About Us</a>
+            </span>
+            <span class="login-logout">
+                <a href="">Log in</i></a>
+                <a href="">Log out</a>
+            </span>
+        </nav>
+    </header>
+    <section class="login-containar">
+        <form action="" class="login-from">
+            <h2>Login</h2>
+            <input type="email" name="email" placeholder="Email" id="">
+            <input type="password" name="password" placeholder="Password" id="">
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+</body>
+
+</html>
