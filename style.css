@@ -1,0 +1,41 @@
+.photo-fream {
+    width: 300px;
+    border: 0px solid lightskyblue;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 60px lightblue;
+    position: relative;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.photo-details {
+    display: none;
+    top: 0;
+    position: absolute;
+    width: 300px;
+}
+
+.photo-details h3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.photo-details p {
+    color: white;
+    text-align: justify;
+    padding: 6px;
+}
+
+
+.photo-fream:hover .photo-details {
+    display: block;
+    background-color: rgba(182, 231, 236, 0.427);
+
+
+}
